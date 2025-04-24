@@ -329,7 +329,3 @@ try:
 except Exception as e:
     st.error(f"Failed to initialize Finance Agent: {str(e)}")
     st.info("Please check your .env file and ensure GROQ_API_KEY is properly set")
-
-# Footer
-st.markdown("---")
-st.caption("Finance Agent - Powered by Groq AI")
